@@ -1,0 +1,19 @@
+.header {
+  min-height: 400px;
+
+  &__background {
+    position: relative;
+    height: 300px;
+    background: url('../img/background.webp') center center/cover no-repeat;
+  }
+
+  &__emoji {
+    position: absolute;
+    inset-block-end: -20px;
+    font-size: 80px;
+  }
+
+  &__title {
+    margin-block-start: $ind;
+  }
+}

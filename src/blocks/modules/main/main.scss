@@ -1,0 +1,21 @@
+.main {
+  margin-block-start: 340px;
+
+  &__row {
+    gap: $indmin;
+  }
+
+  &__avatar {
+    img {
+      height: revert;
+    }
+  }
+
+  &__whoiam {
+    margin-block-start: 20px;
+  }
+
+  &__emoji {
+    font-size: 20px;
+  }
+}
